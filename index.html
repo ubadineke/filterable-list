@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Filterable List</title>
+</head>
+<body>
+<div class="container">
+    <header>
+        <h1>Contacts</h1>
+        <br>
+     <div class="flexed">
+        <img src="img/search-icon.svg" alt="" id="searchicon">
+        <input type="text" id="filter" placeholder="Search Contacts...">
+        <img src="img/add-contact.svg" alt="" id="addbtn">
+        <img src="img/edit-contact.svg" alt="" id="editbtn">
+        <img src="img/import-contact.svg" alt="" id="importbtn">
+     </div>
+    </header>
+    <br>
+    <ul id="names">
+        <li class="list-item">
+            <p class="person">Abbey</p>
+            <div class="flexed">
+            <p>08038492849</p>
+            <img src="img/delete-icon.svg" alt="" class="deletebtn">
+            </div>
+        </li>
+        <li class="list-item">
+            <p class="person">Adrian</p>
+            <div class="flexed">
+            <p class="number">09048931038</p>
+            <img src="img/delete-icon.svg" alt="" class="deletebtn">
+            </div>
+        </li>
+        <li class="list-item">
+            <p class="person">Azikiwe</p>
+            <div class="flexed">
+            <p class="number">08155887458</p>
+            <img src="img/delete-icon.svg" alt="" class="deletebtn">
+            </div>
+        </li>
+        
+        <li class="list-item">
+            <p class="person">Birton</p>
+            <div class="flexed">
+            <p class="number">07000775323</p>
+            <img src="img/delete-icon.svg" alt="" class="deletebtn">
+            </div>
+        </li>
+        <li class="list-item">
+            <p class="person">Beth</p>
+            <div class="flexed">
+            <p class="number">08030905783</p>
+            <img src="img/delete-icon.svg" alt="" class="deletebtn">
+            </div>
+        </li>
+        <li class="list-item">
+            <p class="person">Brad</p>
+            <div class="flexed">
+            <p class="number">09038472004</p>
+            <img src="img/delete-icon.svg" alt="" class="deletebtn">
+            </div>
+        </li>
+        
+        <li class="list-item">
+            <p class="person">Captain</p>
+            <div class="flexed">
+            <p class="number">08146782498</p>
+            <img src="img/delete-icon.svg" alt="" class="deletebtn">
+            </div>
+        </li>
+        <li class="list-item">
+            <p class="person">Chinedu</p>
+            <div class="flexed">
+            <p class="number">07034898700</p>
+            <img src="img/delete-icon.svg" alt="" class="deletebtn">
+            </div>
+        </li>
+        <li class="list-item">
+            <p class="person">Chukwu</p>
+            <div class="flexed">
+            <p class="number">09048789187</p>
+            <img src="img/delete-icon.svg" alt="" class="deletebtn">
+            </div>
+        </li>
+        <!-- <li class="list-item">
+            <p></p>
+            <p></p>
+        </li> -->
+    </ul>
+
+    <div id="modal">
+        <div class="modal-content">
+           <span class="closebtn">&times;</span> <p>New Contact</p>
+            <form action="" id="contact-form">
+            <input type="text" class="new-name" placeholder="Name">
+            <br>
+            <input type="number" class="new-phone" placeholder="Phone">
+            <br>
+            <input type="submit" class="submit-btn" value="Done">
+            </form>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
+
+<script src="main.js"></script>
